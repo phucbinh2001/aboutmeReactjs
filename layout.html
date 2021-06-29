@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phúc Bình - About me</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="css/reponsive.css" />
+    <script src="js.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  </head>
+  <body onload="jobne(), show(spall)">
+    <div class="page4 row" id="kinang">
+      <div class="center">
+        <h2>Kĩ năng</h2>
+        <div class="boxleft">
+          <div class="js">
+            <p>JavaScript <span>60%</span></p>
+            <div class="thanhpt"></div>
+          </div>
+          <div class="java">
+            <p>Java <span>50%</span></p>
+            <div class="thanhpt"></div>
+          </div>
+          <div class="html">
+            <p>HTML <span>80%</span></p>
+            <div class="thanhpt"></div>
+          </div>
+          <div class="css">
+            <p>CSS <span>70%</span></p>
+            <div class="thanhpt"></div>
+          </div>
+        </div>
+        <div class="boxleft">
+          <div class="c">
+            <p>C <span>50%</span></p>
+            <div class="thanhpt"></div>
+          </div>
+          <div class="lvn">
+            <p>Làm việc nhóm <span>70%</span></p>
+            <div class="thanhpt"></div>
+          </div>
+          <div class="st">
+            <p>Sáng tạo <span>80%</span></p>
+            <div class="thanhpt"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page5 row" id="sp">
+      <div class="center">
+        <h2>Sản phẩm</h2>
+        <div class="catalog">
+          <span onclick="show(spall)">Tất cả</span>
+          <span onclick="show(spweb)">Website</span>
+          <span onclick="show(sppts)">Photoshop</span>
+        </div>
+        <div class="sanpham" id="sanpham">
+          <img src="" class="card" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
